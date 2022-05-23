@@ -1,6 +1,5 @@
 const path = require('path');
 const fsp = require('fs/promises');
-const { join } = require('path');
 
 const getFiles = async (folder) => {
     try {
